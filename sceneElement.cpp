@@ -60,7 +60,7 @@ void SceneElement::buildGeometry(int divisions, qreal scale)
     //node3.translate(QVector3D(0.01, 0.4, -0.5));
 
 
-    PipeEntity body(geom, 0.005, 0.001, 0.1, 20);
+    PipeEntity body(geom, 0.005, 0.01, 0.3, 20);
     body.translate(QVector3D(0.1, 0.2, 0.05));
 
     parts << body.parts << node1.parts ;//<< node2.parts << node3.parts << body.parts; << stem.parts
