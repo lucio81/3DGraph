@@ -108,3 +108,10 @@ void PipeEntity::rotatePipe(QVector3D node1, QVector3D node2){
     rotate(degreesZX,QVector3D(0.0,0.0,1.0));
 
 }
+
+void PipeEntity::translatePipe(QVector3D node1, QVector3D node2){
+
+    translate(QVector3D(((node1.x()+node2.x())/2),((node1.y()+node2.y())/2),((node1.z()+node2.z())/2)));
+    std::cout << ((node1.x()+node2.x())/2) << " "<< ((node1.y()+node2.y())/2) <<" "<<((node1.z()+node2.z())/2) << std::endl;
+
+}
