@@ -10,10 +10,11 @@
 #include<sceneManager/nodeEntity.h>
 #include<sceneManager/pipeEntity.h>
 
-
+//test change git
 
 class SceneElement : public QObject
 {
+    
 public:
     SceneElement (QObject *parent, int d = 1, qreal s = 80.0);
     ~SceneElement();
