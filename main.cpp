@@ -46,7 +46,8 @@
 
 int main(int argc, char *argv[])
 {
-  //test git
+  //second test git
+
     QApplication app(argc, argv);
     Window window;
     window.resize(window.sizeHint());
